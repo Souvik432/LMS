@@ -1,0 +1,10 @@
+<!-- WebContent/updateMembership.html -->
+<form method="post" action="UpdateMembershipServlet">
+    Membership No: <input type="text" name="membershipNo" required><br/>
+    Extend Membership:<br/>
+    <label><input type="radio" name="extendDuration" value="6months" checked> 6 Months</label><br/>
+    <label><input type="radio" name="extendDuration" value="1year"> 1 Year</label><br/>
+    <label><input type="radio" name="extendDuration" value="2years"> 2 Years</label><br/>
+    <label><input type="checkbox" name="cancelMembership" value="yes"> Cancel Membership</label><br/>
+    <input type="submit" value="Update Membership">
+</form>
